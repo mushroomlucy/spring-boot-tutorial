@@ -152,13 +152,13 @@ Controller → Exception thrown
 
 🧠 Big Picture Summary
 Spring Boot does:
-🔍 Scan project <br />
-🏷️ Read annotations <br />
-🧠 Build routing + object maps <br />
-🧱 Create all beans <br />
-🔗 Inject dependencies <br />
-🚦 Register URLs <br />
-🚨 Register exception handlers <br />
+🔍 Scan project <br/>
+🏷️ Read annotations<br/>
+🧠 Build routing + object maps <br/>
+🧱 Create all beans <br/>
+🔗 Inject dependencies <br/>
+🚦 Register URLs <br/>
+🚨 Register exception handlers <br/>
 
 🧠 Why This Is Genius Architecture
 You:

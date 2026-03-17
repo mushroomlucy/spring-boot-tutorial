@@ -172,3 +172,24 @@ Spring Boot does:
 | `@Repository`            | Database layer             |
 | `@Entity`                | Database table mapping     |
 
+
+Controller
+   ↓
+Request DTO
+   ↓
+Model (Business Object)
+   ↓
+Entity
+   ↓
+Repository
+   ↓
+Database
+   ↑
+Entity
+   ↑
+Model
+   ↑
+Response DTO
+   ↑
+Controller
+

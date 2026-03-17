@@ -160,10 +160,15 @@ Spring Boot does:
 🚦 Register URLs <br/>
 🚨 Register exception handlers <br/>
 
-🧠 Why This Is Genius Architecture
-You:
-Write simple classes
-Add annotations
-Spring:
-Builds a full server framework automatically
-This is why Spring Boot is so powerful.
+| Annotation               | Meaning                    |
+| ------------------------ | -------------------------- |
+| `@SpringBootApplication` | Main entry point           |
+| `@RestController`        | Web controller             |
+| `@GetMapping`            | HTTP GET request           |
+| `@PostMapping`           | HTTP POST request          |
+| `@Autowired`             | Automatic object injection |
+| `@Component`             | Spring-managed class       |
+| `@Service`               | Business logic layer       |
+| `@Repository`            | Database layer             |
+| `@Entity`                | Database table mapping     |
+
